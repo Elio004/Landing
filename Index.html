@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo AT&T - Danny</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 20px;
+      color: #222;
+    }
+    h1, h2 {
+      color: #0077cc;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .modelo {
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .modelo img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .nombre {
+      font-size: 18px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .precio {
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+    .boton-wsp {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .boton-wsp:hover {
+      background-color: #1ebc5a;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>📱 Catálogo de Equipos AT&T</h1>
+<div class="catalogo">
+  <!-- Aquí irían todos los bloques de equipos -->
+  <!-- Ejemplo: -->
+  <div class="modelo">
+    <img src="iphone13.jpg" alt="iPhone 13 128GB">
+    <div class="nombre">iPhone 13 128GB</div>
+    <div class="precio">
+      <del>$12,999.00</del><br>
+      <strong>$6,529.40</strong> en AT&T Oro<br>
+      <small>Financiamiento hasta 36 cuotas</small>
+    </div>
+    <a class="boton-wsp" href="https://wa.me/5214402093207?text=Hola! Estoy interesado en el iPhone 13 en plan AT&T Oro">Solicitar info</a>
+  </div>
+  <!-- Puedes añadir todos los bloques aquí -->
+</div>
+
+<h2>💼 Planes AT&T Disponibles</h2>
+<div class="catalogo">
+  <div class="modelo">
+    <div class="nombre">AT&T Plata</div>
+    <div class="precio">
+      25 GB<br>Elige 6 apps ilimitadas<br>
+      Minutos y SMS ilimitados 🇺🇸🇲🇽🇨🇦<br>
+      <del>$629</del> → <strong>$503</strong> por portabilidad
+    </div>
+  </div>
+  <div class="modelo">
+    <div class="nombre">AT&T Oro</div>
+    <div class="precio">
+      30 GB<br>Elige 6 apps ilimitadas<br>
+      Minutos y SMS ilimitados 🇺🇸🇲🇽🇨🇦<br>
+      <del>$699</del> → <strong>$559</strong> por portabilidad
+    </div>
+  </div>
+  <div class="modelo">
+    <div class="nombre">AT&T Black</div>
+    <div class="precio">
+      40 GB<br>Elige 6 apps ilimitadas<br>
+      Minutos y SMS ilimitados 🇺🇸🇲🇽🇨🇦<br>
+      <del>$799</del> → <strong>$639</strong> por portabilidad
+    </div>
+  </div>
+  <div class="modelo">
+    <div class="nombre">AT&T Platino</div>
+    <div class="precio">
+      45 GB<br>Elige 6 apps ilimitadas<br>
+      Minutos y SMS ilimitados 🇺🇸🇲🇽🇨🇦<br>
+      <del>$999</del> → <strong>$799</strong> por portabilidad
+    </div>
+  </div>
+  <div class="modelo">
+    <div class="nombre">AT&T Titanio</div>
+    <div class="precio">
+      40 GB<br>Elige 6 apps ilimitadas<br>
+      Minutos y SMS ilimitados 🇺🇸🇲🇽🇨🇦<br>
+      <del>$1,450</del> → <strong>$1,350</strong> por portabilidad<br>
+      <small>📲 Cambia tu iPhone cada año</small>
+    </div>
+  </div>
+</div>
+
+<h2>🎯 Apps ilimitadas a elegir</h2>
+<p>Puedes seleccionar hasta 6 apps para que no consuman tus datos:</p>
+<ul style="columns: 2; font-size: 16px; line-height: 1.8;">
+  <li>WhatsApp</li>
+  <li>Facebook</li>
+  <li>Spotify</li>
+  <li>Instagram</li>
+  <li>Didi</li>
+  <li>Uber</li>
+  <li>Google Maps</li>
+  <li>Waze</li>
+  <li>X (antes Twitter)</li>
+  <li>Telegram</li>
+  <li>Pinterest</li>
+  <li>LinkedIn</li>
+  <li>Rappi</li>
+  <li>Snapchat</li>
+</ul>
+
+</body>
+</html>
